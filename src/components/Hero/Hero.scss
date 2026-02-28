@@ -1,0 +1,48 @@
+.hero {
+  width: 100%;
+  aspect-ratio: 5760 / 1560; 
+
+  background: url("/banner.png") center center no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+}
+
+.hero_content {
+    max-width: 1200px;
+    margin: 0;
+    padding: 0 20px;
+    color: white;
+}
+
+.hero_content h1 {
+    font-family: "Poppins", sans-serif ;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 50px;
+    letter-spacing: 0;
+    margin-bottom: 16px;
+    color: #fff;
+}
+.hero_content p strong {
+    color:#F7CA11;
+    font-weight: 700;
+}
+
+.hero_content p {
+    font-size: 32px;
+    margin-bottom: 41px;
+}
+
+.hero_content button {
+    background: #F7CA11;
+    border:none;
+    padding: 14px 32px;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer; 
+    transition: 0.3s ease;
+}

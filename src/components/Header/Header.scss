@@ -1,0 +1,36 @@
+.header__top {
+    background: white;
+    color: #9f9f9f ;
+    font-size:12px;;
+    padding: 8px 20px;
+    
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.header__top-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.header__top-item img {
+    width: 20px;
+    height: 20px;
+}
+
+.header__top-item p {
+    font-size: 12px;
+    margin: 0;
+}
+
+.header__top-item span {
+    color: #3019b2;
+    font-weight: 600;
+}
+
+.header__main {
+    width: 138px ;
+    height: 41,3px ;
+    align-items: center;
+}
