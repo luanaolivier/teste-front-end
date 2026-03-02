@@ -24,29 +24,37 @@ export function Header() {
 
       {/* Parte principal */}
       <div className="header__main">
-        <img src="/logo header.png"/>  
-      </div>
+
+        <div className="header__logo">
+            <img src="/logoheader.png"/>
+        </div>
 
         <div className="header__search">
+            <input type="text" placeholder="O que você está buscando?"/>
             <img src="/lupa.png"/>
-          <input type="text" placeholder="O que você está buscando?" />
         </div>
 
         <div className="header__icons">
-          <span>👤</span>
-          <span>❤</span>
-          <span>🛒</span>
+            <img src="caixinha.png"/>
+            <img src="coraçao.png"/>
+            <img src="usuario.png"/>
+            <img src="carrinho.png"/>
         </div>
-    
+      </div>
+
+        
 
       {/* Menu */}
       <nav className="header__nav">
         <ul>
-          <li>Todas Categorias</li>
-          <li>Super Ofertas</li>
-          <li>Livros</li>
-          <li>Moda</li>
-          <li>Lançamentos</li>
+          <li className="bold">TODAS CATEGORIAS</li>
+          <li>SUPER MERCADO</li>
+          <li>LIVROS</li>
+          <li>MODA</li>
+          <li>LANÇAMENTOS</li>
+          <li><span>OFERTA DO DIA</span></li>
+          <li className="assinatura">
+            <img src="/coroa.png"/>ASSINATURA</li>
         </ul>
       </nav>
 
