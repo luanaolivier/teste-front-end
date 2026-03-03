@@ -1,0 +1,49 @@
+.partners {
+  max-width: 1200px;
+  margin: 80px auto;
+  display: flex;
+  gap: 24px;
+}
+
+.partners__card {
+  position: relative;
+  flex: 1;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.partners__card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
+
+.partners__content {
+  position: absolute;
+  top: 50%;
+  left: 40px;
+  transform: translateY(-50%);
+  color: #fff;
+}
+
+.partners__content h3 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.partners__content p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.partners__content button {
+  background: #FFC107;
+  color: #271C47;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}

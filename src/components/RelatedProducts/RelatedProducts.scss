@@ -1,0 +1,52 @@
+.related__products {
+  max-width: 1200px;
+  margin: 40px auto;
+
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.related {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.related__header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.related__header h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #3019B2;
+}
+
+.related__tabs {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+.related__tabs span {
+  font-size: 14px;
+  color: #555;
+  cursor: pointer;
+  padding-bottom: 4px;
+}
+
+.related__tabs .active {
+  color: #3019B2;
+  font-weight: 600;
+  border-bottom: 2px solid #3019B2;
+}
+
+.related__products {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
