@@ -1,5 +1,13 @@
 import "./RelatedProducts.scss"
 import { ProductCard } from "../ProductCard"
+import { useEffect, useState } from "react"
+
+type Product = {
+  productName: string
+  descriptionShort: string
+  photo: string
+  price: number
+}
 
 export function RelatedProducts() {
   return (

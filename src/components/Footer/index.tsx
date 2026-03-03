@@ -7,39 +7,47 @@ export function Footer() {
       <div className="footer__container">
 
         <div className="footer__brand">
-          <h2>LOGO</h2>
-          <p>
-            A melhor loja para você encontrar produtos incríveis.
-          </p>
+            <img src="/logoheader.png"/>
+
+                <p className="footer__description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+
+            <div className="footer__social">
+
+                <div className="footer__icons">
+                <img src="/instagram.png"/>
+                <img src="/facebook.png"/>
+                <img src="/linkedin.png"/>
+            </div>
+        </div>
         </div>
 
         <div className="footer__links">
           <h4>Institucional</h4>
           <a href="#">Sobre nós</a>
-          <a href="#">Política de privacidade</a>
-          <a href="#">Termos de uso</a>
+          <a href="#">Movimento</a>
+          <a href="#">Trabalhe conosco</a>
         </div>
 
         <div className="footer__links">
           <h4>Ajuda</h4>
-          <a href="#">Trocas e devoluções</a>
-          <a href="#">Entrega</a>
-          <a href="#">Contato</a>
+          <a href="#">Suporte</a>
+          <a href="#">Fale Conosco</a>
+          <a href="#">Perguntas Frequentes</a>
         </div>
 
-        <div className="footer__social">
-          <h4>Redes sociais</h4>
-          <div className="footer__icons">
-            <span>IG</span>
-            <span>FB</span>
-            <span>YT</span>
-          </div>
+         <div className="footer__links">
+          <h4>Termos</h4>
+          <a href="#">Termos e Condições</a>
+          <a href="#">Política de Privacidade</a>
+          <a href="#">Troca e Devolução</a>
         </div>
 
       </div>
 
       <div className="footer__bottom">
-        © 2026 - Todos os direitos reservados.
+        Lorem ipsum dolar sit amet, consectetur adipiscing elit.
       </div>
 
     </footer>

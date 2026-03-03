@@ -1,6 +1,6 @@
 .footer {
-  background: #111;
-  color: #fff;
+  background: #f4f4f4;
+  color: black;
   padding-top: 60px;
 }
 
@@ -13,12 +13,9 @@
   padding-bottom: 40px;
 }
 
+
 .footer__brand {
   max-width: 250px;
-}
-
-.footer__brand h2 {
-  margin-bottom: 12px;
 }
 
 .footer__brand p {
@@ -79,4 +76,39 @@
   padding: 20px 0;
   font-size: 13px;
   opacity: 0.6;
+}
+
+.footer__brand {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 260px;
+}
+
+.footer__logo {
+  width: 164px;
+  height: 48px;
+  object-fit: contain;
+}
+
+.footer__description {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #ccc;
+}
+
+.footer__social {
+  display: flex;
+  gap: 16px;
+}
+
+.footer__social img {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.footer__social img:hover {
+  opacity: 0.7;
 }
