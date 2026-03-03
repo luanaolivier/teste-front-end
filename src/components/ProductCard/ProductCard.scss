@@ -1,9 +1,53 @@
+.related{
+  width: 100%;
+  margin-top: 60px;
+  padding: 0 60px;
+}
+
+.related__header {
+  text-align: center;
+}
+
+.related__header h2 {
+  color: #3b5bcc;
+  font-size: 28px;
+  font-weight: 700;
+  white-space: nowrap;
+  text-align: center;
+}
+
+
+.related__tabs {
+  display:block;
+  width:auto;
+  margin: 25px auto;
+  border: 1px solid #ddd;
+}
+
+.related__tabs span {
+  flex: 2;
+  padding: 18px;
+  text-align: center;
+  font-size: 14px;
+  border-right: 1px solid #ddd;
+  cursor: relative;
+  transition: 0.2s;
+}
+
+.related__tabs span:last-child {
+  border-right: none;
+}
+
+.related__tabs span:hover {
+  background-color: #f5f5f5;
+}
+
 .product-card {
-  width: 250px;
+  width: 100px;
   padding: 20px;
   background: #fff;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
 
   display: flex;
   flex-direction: column;

@@ -4,7 +4,7 @@
 
   display: flex;
   justify-content: center;
-  gap: 24px;
+  gap: 16px;
 }
 
 .related {
@@ -25,15 +25,18 @@
 }
 
 .related__tabs {
-  margin-top: 20px;
+  margin-top: 100px;
+  max-width: 1200px;
   display: flex;
-  justify-content: center;
-  gap: 32px;
+  overflow: hidden;
+   border: 1px solid #ddd;
+  justify-content: space-between;
+  gap: 58px;
 }
 
 .related__tabs span {
-  font-size: 14px;
-  color: #555;
+  font-size: 16px;
+  color: #3b3b3b;
   cursor: pointer;
   padding-bottom: 4px;
 }
@@ -49,4 +52,49 @@
   display: flex;
   justify-content: center;
   gap: 24px;
+}
+
+.related__carousel {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.related__products-wrapper {
+  overflow: hidden;
+  width: 100%;
+}
+
+.related__products {
+  display: flex;
+  gap: 16px;
+}
+
+.product-card {
+  min-width: 25%;
+}
+
+.arrow {
+  width: 32px;
+  height: 32px;
+  background-color: #ffffff;
+  border-radius: 100%;
+  border: none;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+
+  transition: all 0.2s ease;
+}
+
+.arrow:hover {
+  transform: scale(1.05);
 }

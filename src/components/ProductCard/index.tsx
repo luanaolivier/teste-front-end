@@ -1,28 +1,40 @@
 import "./ProductCard.scss"
 
-export function ProductCard() {
+type Product = {
+  productName: string
+  descriptionShort: string
+  photo: string
+  price: number
+}
+
+type Props = {
+  product: Product
+  onClick: () => void
+}
+
+export function ProductCard({ product, onClick}: Props) {
   return (
-    <div className="product-card">
+    <div className="product-card" onClick={onClick}>
       <img
-        src="/iphone.png"
-        alt="Produto"
+        src={product.photo}
+        alt={product.productName}
         className="product-card__image"
       />
 
       <h3 className="product-card__title">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        {product.productName}
       </h3>
 
       <span className="product-card__old-price">
-        R$ 30,00
+        R$ {(product.price + 200).toLocaleString("pt-BR")}
       </span>
 
       <span className="product-card__price">
-        R$ 28,90
+        R$ {product.price.toLocaleString("pt-BR")}
       </span>
 
       <span className="product-card__installments">
-        ou 2x de R$49,95 sem juros
+        ou 2x de R$ {(product.price / 2).toLocaleString("pt-BR")} sem juros
       </span>
 
       <span className="product-card__shipping">
@@ -32,6 +44,7 @@ export function ProductCard() {
       <button className="product-card__button">
         COMPRAR
       </button>
+
     </div>
   )
 }
